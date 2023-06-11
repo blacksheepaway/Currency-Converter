@@ -24,7 +24,8 @@ Example
 
 Using the Currency Exchange Web App is simple. Users can select their base currency and target currency from the dropdown lists, enter the amount they wish to convert, and click the "Convert" button. The application will then process the request and display the converted amount.
 
-ezgif com-crop
+![image](https://github.com/blacksheepaway/Currency-Converter/assets/50200471/1c5746a2-a50d-426a-a9e3-0ab3d3005426)
+
 
 Modification for Other Applications
 -----------------------------------
