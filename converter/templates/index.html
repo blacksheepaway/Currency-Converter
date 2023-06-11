@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <!-- include jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- include select2 css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <!-- include select2 js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount">
+        <label for="from_currency">From Currency:</label>
+        <select id="from_currency" name="from_currency"></select>
+        <label for="to_currency">To Currency:</label>
+        <select id="to_currency" name="to_currency"></select>
+        <button id="convert-button">Convert</button>
+        <div id="result"></div>
+    </div>
+    <div class="currency-box" id="box1"></div>
+    <div class="currency-box" id="box2"></div>
+    <div class="currency-box" id="box3"></div>
+    <div class="currency-box" id="box4"></div>
+    <script src="/static/script.js"></script>
+    <footer>
+        Live data provided by <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a>
+    </footer>
+</body>
+</html>
